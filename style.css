@@ -285,7 +285,16 @@ body{
     text-decoration: none;
     height: 100px;
   }
-  @media (max-width: 375px) {
+  @media (max-width: 605px) {
+#header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header h2{
+        margin: 0px;
+    }
   #About{
     width: 100%;
     flex-direction: column;
@@ -298,4 +307,13 @@ body{
       flex-direction: column;
       flex-wrap:nowrap
     }
+    #TD{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        font-family: sans-serif;
+        color: green;
+      }
   }
