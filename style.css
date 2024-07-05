@@ -60,7 +60,7 @@ body{
   gap: 10px;
   padding: 50px;
   }
-  .content{
+  #content{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -98,7 +98,7 @@ body{
     display: flex;
     justify-content: center;
   }
-  #Email{
+  #slackProfile{
     text-decoration: none;
     color: blue;
   }
@@ -159,8 +159,4 @@ body{
         font-family: sans-serif;
         color: green;
       }
-<<<<<<< HEAD
-  }
-=======
-  }
->>>>>>> 37ddd0dc5802f4067835ed2cbee300e02325e4ca
+    }
